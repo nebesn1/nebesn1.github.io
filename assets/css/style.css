@@ -1,0 +1,94 @@
+body {
+    background-color: #ac0000;
+}
+
+@media (min-width: 0px) and (max-width:960px) {
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: "SimHei", "黑体", serif; 
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: "SimSun", "宋体", serif;
+    }
+    .time {
+        font-size: 5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+    .quote {
+        font-size: 4vh;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+@media (min-width: 960px) and (max-width:1300px) {
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15%;
+        padding-bottom: 7%;
+        padding-left: 3%;
+        padding-right: 3%;
+        font-family: "SimHei", "黑体", serif; 
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: "SimSun", "宋体", serif;
+    }
+    .time {
+        font-size: 6vh;
+        text-align: center;
+        color: #ffffff;
+    }
+    .quote {
+        font-size: 5vh;
+        text-align: center;
+        color: #ffffff;
+    }
+}
+@media (min-width: 1300px) {
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: "SimHei", "黑体", serif; 
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: "SimSun", "宋体", serif;
+    }
+    .time {
+        font-size: 7vh;
+        text-align: center;
+        color: #ffffff;
+    }
+    .quote {
+        font-size: 6vh;
+        text-align: center;
+        color: #ffffff;
+    }
+}
